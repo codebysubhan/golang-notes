@@ -16,4 +16,6 @@ func main(){ // why I'm getting a warning saying that main is redeclared in this
 	for i:=0; i < 10; i++ {
 		fmt.Println(i)
 	}
+
+	// we can use continue and break the similar way we use in python inside a loop
 }
