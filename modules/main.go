@@ -7,7 +7,8 @@ import (
 	// mp "example.com/modules/maps"
 	// st "example.com/modules/structs"
 	// df "example.com/modules/definedTypes"
-	enc "example.com/modules/encapsulation"
+	// enc "example.com/modules/encapsulation"
+	inface "example.com/modules/interfaces"
 )
 
 func main(){
@@ -17,5 +18,6 @@ func main(){
 	// mp.LearnMaps()
 	// st.LearnStruct()
 	// df.LearnDefinedType()
-	enc.Encap()
+	// enc.Encap()
+	inface.LearnInterface()
 }
