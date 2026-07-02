@@ -6,7 +6,8 @@ import (
 	// sl "example.com/modules/slices"
 	// mp "example.com/modules/maps"
 	// st "example.com/modules/structs"
-	df "example.com/modules/definedTypes"
+	// df "example.com/modules/definedTypes"
+	enc "example.com/modules/encapsulation"
 )
 
 func main(){
@@ -15,5 +16,6 @@ func main(){
 	// sl.Slices()
 	// mp.LearnMaps()
 	// st.LearnStruct()
-	df.LearnDefinedType()
+	// df.LearnDefinedType()
+	enc.Encap()
 }
