@@ -5,7 +5,8 @@ import (
 	// ar "example.com/modules/arrays"
 	// sl "example.com/modules/slices"
 	// mp "example.com/modules/maps"
-	st "example.com/modules/structs"
+	// st "example.com/modules/structs"
+	df "example.com/modules/definedTypes"
 )
 
 func main(){
@@ -13,5 +14,6 @@ func main(){
 	// ar.Learn()
 	// sl.Slices()
 	// mp.LearnMaps()
-	st.LearnStruct()
+	// st.LearnStruct()
+	df.LearnDefinedType()
 }
