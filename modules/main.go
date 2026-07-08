@@ -8,7 +8,9 @@ import (
 	// st "example.com/modules/structs"
 	// df "example.com/modules/definedTypes"
 	// enc "example.com/modules/encapsulation"
-	inface "example.com/modules/interfaces"
+	// inface "example.com/modules/interfaces"
+	err "example.com/modules/errorsingo"
+
 )
 
 func main(){
@@ -19,5 +21,6 @@ func main(){
 	// st.LearnStruct()
 	// df.LearnDefinedType()
 	// enc.Encap()
-	inface.LearnInterface()
+	// inface.LearnInterface()
+	err.ErrorsInGo()
 }
